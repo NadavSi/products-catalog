@@ -22,7 +22,7 @@ class Products {
             foreach ($results as $key => &$item) {
                 foreach ($searchCriteria as $singleCriteria) {
                     //check if search string is in the result string by criteria - if so add to new array
-                    if (strpos(strtolower($item[$singleCriteria]), $searchStr) !== false) { 
+                    if (strpos(strtolower($item[$singleCriteria]), strtolower($searchStr)) !== false) { 
                         array_push($searchedResults,$item);                  
                         unset($results[$key]);
                         break;
