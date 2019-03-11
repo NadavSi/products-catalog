@@ -32,7 +32,9 @@ class Products {
             
             //adds new log entry for search string and criteria
             $log = new SearchesLog;
-            $log->addSearchLog($searchStr, implode(',',$searchCriteria));
+            if ($log->logTableExist()) {
+                $log->addSearchLog($searchStr, implode(',',$searchCriteria));
+            }            
         } else {
             $searchedResults = $results;
         }
