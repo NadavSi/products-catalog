@@ -10,8 +10,10 @@ setup a database credentials in config/config.php<br/>
   define('DB_USER', '<username>'); <br/>
   define('DB_PASS', '<password>'); <br/>
   define('DB_NAME', '<database name>'); <br/>
-  
 *once searched for first time server will set up the log table if not exist<br/>
+  
+run apache and mySQL <br/>
+url link: http://localhost/prodcutsCatalog/ <br/>
 
 *configuring xampp <br/>
 (from https://stackoverflow.com/questions/18902887/how-to-configuring-a-xampp-web-server-for-different-root-directory)<br/>
