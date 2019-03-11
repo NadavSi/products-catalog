@@ -1,0 +1,14 @@
+.titleBar {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.centertd {
+    text-align: center; 
+}
+
+mark {
+    background-color: #b986e8;
+}
