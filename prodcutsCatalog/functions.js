@@ -37,7 +37,7 @@ $(document).ready(function() {
             {
                 targets: [1],
                 render: function (data, type, full) { 
-                    posStart = data.toLowerCase().indexOf(searchStr); //get position of search string in name column
+                    posStart = data.toLowerCase().indexOf(searchStr.toLowerCase()); //get position of search string in name column
                     if (searchStr == '' || $.inArray('name',criteria) == -1 || posStart == -1) { //search is empty or name criteria not selected or search string not in name column
                         markedName = data;
                     }else{                        
@@ -52,7 +52,7 @@ $(document).ready(function() {
             {
                 targets: [2],
                 render: function (data, type, full) { 
-                    posStart = data.toLowerCase().indexOf(searchStr); //get position of search string in color column
+                    posStart = data.toLowerCase().indexOf(searchStr.toLowerCase()); //get position of search string in color column
                     if (searchStr == '' || $.inArray('color',criteria) == -1 || posStart == -1) { //search is empty or color criteria not selected or search string not in color column
                         markedName = data;
                     }else{                        
