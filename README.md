@@ -1,5 +1,7 @@
 # products-catalog
 
+*currently not functional as it was an assignment for an interview and access to test data is restricted
+
 a very simple and light-weight "search in results" project.
 
 all that is needed to run is xampp configured to default htdocs path or other path<br/>
